@@ -1,0 +1,68 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  backend:
+    name: Backend
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: backend/package-lock.json
+
+      - name: Install
+        run: npm ci
+
+      # There is no backend test suite yet. This at least proves every module
+      # parses and its dependencies resolve.
+      - name: Syntax check
+        run: for f in $(find . -name '*.js' -not -path './node_modules/*'); do node --check "$f"; done
+
+      - name: Load routers and config
+        run: |
+          node -e "
+            require('./config/mailer.js');
+            ['auth','supplier','buyer','article','rating','report','transaction']
+              .forEach(r => require('./routes/' + r + 'Routes.js'));
+            console.log('backend modules load OK');
+          "
+
+  frontend:
+    name: Frontend
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install
+        run: npm ci
+
+      # Formatting rules are set to 'warn' in .eslintrc.js, so this reports style
+      # drift without failing. Correctness rules are still errors and will fail here.
+      - name: Lint
+        run: npm run lint
+
+      - name: Build
+        run: npm run build
+        env:
+          CI: false

@@ -1,4 +1,14 @@
-# Client/Supplier Relationship Management
+<p align="center">
+  <img src="docs/assets/relay-logo.png" alt="Relay - Supplier Relations" width="420">
+</p>
+
+<h1 align="center">Relay</h1>
+
+<p align="center">
+  Supplier relations for teams that buy and sell.
+</p>
+
+---
 
 A MERN web application for managing relationships between **Suppliers** and **Buyers**.
 Suppliers publish articles (offers); Buyers browse them, leave reviews and ratings, and
@@ -111,7 +121,9 @@ were left in place in case file upload is planned — see `docs/AUDIT.md`.
 │   │   └── data/dummy.js       Template sample data + sidebar links and grid configs
 │   └── .env.example
 ├── .github/workflows/ci.yml    CI: install, lint, build for both apps
-├── docs/AUDIT.md               Repository audit, ambiguities, technical debt
+├── docs/
+│   ├── AUDIT.md                Repository audit, ambiguities, technical debt
+│   └── assets/relay-logo.png   Project logo used in this README
 ├── LICENSE                     MIT (Syncfusion components are separately licensed)
 └── README.md
 ```
@@ -283,3 +295,9 @@ runtime behaviour and needs an owner decision. See `docs/AUDIT.md` for the full 
 - **Confirmation link does not work.** See the route-mismatch entry under Known issues.
 - **Changing the backend host.** Set `REACT_APP_API_URL` in `frontend/.env` and restart the
   dev server — CRA reads `.env` only at startup.
+
+---
+
+<p align="center">
+  Built with ❤️ by Hamdi Khsib
+</p>

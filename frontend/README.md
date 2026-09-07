@@ -1,4 +1,4 @@
-# Frontend — Client/Supplier Relationship Management
+# Relay — Frontend
 
 React (Create React App) single-page application. See the [root README](../README.md)
 for architecture, prerequisites, configuration, and run instructions.

@@ -9,25 +9,25 @@
 </p>
 
 <p align="center">
-  <img alt="React 17" src="https://img.shields.io/badge/React_17.0.2-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
-  <img alt="Create React App 5" src="https://img.shields.io/badge/Create_React_App_5-09D3AC?style=for-the-badge&logo=createreactapp&logoColor=white">
-  <img alt="React Router 6" src="https://img.shields.io/badge/React_Router_6.2-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white">
-  <img alt="Redux 4" src="https://img.shields.io/badge/Redux_4.2-764ABC?style=for-the-badge&logo=redux&logoColor=white">
-  <img alt="Tailwind CSS 3" src="https://img.shields.io/badge/Tailwind_CSS_3.0-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white">
-  <img alt="Syncfusion EJ2 19.4" src="https://img.shields.io/badge/Syncfusion_EJ2_19.4-FF5722?style=for-the-badge">
-  <img alt="Bootstrap" src="https://img.shields.io/badge/React_Bootstrap_2.8-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">
-  <img alt="Axios 1.5" src="https://img.shields.io/badge/Axios_1.5-5A29E4?style=for-the-badge&logo=axios&logoColor=white">
-  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white">
-  <img alt="Express 4" src="https://img.shields.io/badge/Express_4.18-000000?style=for-the-badge&logo=express&logoColor=white">
-  <img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white">
-  <img alt="Mongoose 7" src="https://img.shields.io/badge/Mongoose_7.4-880000?style=for-the-badge&logo=mongoose&logoColor=white">
-  <img alt="JWT" src="https://img.shields.io/badge/JWT_9.0-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white">
-  <img alt="bcrypt" src="https://img.shields.io/badge/bcrypt_5.1-004088?style=for-the-badge">
-  <img alt="Nodemailer" src="https://img.shields.io/badge/Nodemailer_6.9-30B980?style=for-the-badge">
-  <img alt="ESLint 8" src="https://img.shields.io/badge/ESLint_8.9-4B32C3?style=for-the-badge&logo=eslint&logoColor=white">
-  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white">
-  <img alt="npm" src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white">
-  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+  <img alt="React 17" src="https://img.shields.io/badge/React-17.0.2-20232A?style=flat-square&amp;logo=react&amp;logoColor=61DAFB">
+  <img alt="Create React App 5" src="https://img.shields.io/badge/Create%20React%20App-5-09D3AC?style=flat-square&amp;logo=createreactapp&amp;logoColor=white">
+  <img alt="React Router 6.2" src="https://img.shields.io/badge/React%20Router-6.2-CA4245?style=flat-square&amp;logo=reactrouter&amp;logoColor=white">
+  <img alt="Redux 4.2" src="https://img.shields.io/badge/Redux-4.2-764ABC?style=flat-square&amp;logo=redux&amp;logoColor=white">
+  <img alt="Tailwind CSS 3.0" src="https://img.shields.io/badge/Tailwind%20CSS-3.0-06B6D4?style=flat-square&amp;logo=tailwindcss&amp;logoColor=white">
+  <img alt="Syncfusion EJ2 19.4" src="https://img.shields.io/badge/Syncfusion%20EJ2-19.4-FF5722?style=flat-square">
+  <img alt="React Bootstrap 2.8" src="https://img.shields.io/badge/React%20Bootstrap-2.8-7952B3?style=flat-square&amp;logo=bootstrap&amp;logoColor=white">
+  <img alt="Axios 1.5" src="https://img.shields.io/badge/Axios-1.5-5A29E4?style=flat-square&amp;logo=axios&amp;logoColor=white">
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&amp;logo=nodedotjs&amp;logoColor=white">
+  <img alt="Express 4.18" src="https://img.shields.io/badge/Express-4.18-000000?style=flat-square&amp;logo=express&amp;logoColor=white">
+  <img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&amp;logo=mongodb&amp;logoColor=white">
+  <img alt="Mongoose 7.4" src="https://img.shields.io/badge/Mongoose-7.4-880000?style=flat-square&amp;logo=mongoose&amp;logoColor=white">
+  <img alt="JWT 9.0" src="https://img.shields.io/badge/JWT-9.0-000000?style=flat-square&amp;logo=jsonwebtokens&amp;logoColor=white">
+  <img alt="bcrypt 5.1" src="https://img.shields.io/badge/bcrypt-5.1-004088?style=flat-square">
+  <img alt="Nodemailer 6.9" src="https://img.shields.io/badge/Nodemailer-6.9-30B980?style=flat-square">
+  <img alt="ESLint 8.9" src="https://img.shields.io/badge/ESLint-8.9-4B32C3?style=flat-square&amp;logo=eslint&amp;logoColor=white">
+  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&amp;logo=githubactions&amp;logoColor=white">
+  <img alt="npm" src="https://img.shields.io/badge/npm-CB3837?style=flat-square&amp;logo=npm&amp;logoColor=white">
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=black">
 </p>
 
 ---
